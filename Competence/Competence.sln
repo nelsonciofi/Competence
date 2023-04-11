@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Competence.EntityFrameworkC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Competence.Dapper", "..\Competence.Dapper\Competence.Dapper.csproj", "{37084C47-5A59-43BE-9FF2-6E86B0BCF2A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Competence.UseCases", "..\Competence.UseCases\Competence.UseCases.csproj", "{B391FC28-289C-43F7-9650-4F0534CC5B73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Competence.UseCases", "..\Competence.UseCases\Competence.UseCases.csproj", "{B391FC28-289C-43F7-9650-4F0534CC5B73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
