@@ -15,8 +15,7 @@ public static class CompetenceMonthExtensions
             yield return cmFrom.ToCompetenceText();
             cmFrom = cmFrom.AddMonths(1);
         }
-    }
-    
+    }    
     
     public static (DateTime, DateTime) DateTimeRangeTo(this CompetenceMonth cmFrom, CompetenceMonth cmTo)
     {
