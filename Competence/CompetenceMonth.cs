@@ -9,7 +9,7 @@ public readonly struct CompetenceMonth : IEquatable<CompetenceMonth>, IComparabl
     public CompetenceMonth(int month, int year)
     {
         if (year <= 0) throw new ArgumentOutOfRangeException(nameof(year));
-        if (month <= 0) throw new ArgumentOutOfRangeException(nameof(month));
+        if (month <= 0 || month > 12) throw new ArgumentOutOfRangeException(nameof(month));
 
         this.year = year;
         this.month = month;
